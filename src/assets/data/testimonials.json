@@ -1,0 +1,333 @@
+{
+    "title": "Successful stories",
+    "subtitle": "Read testimonials from clients",
+    "secondSubtitle": "we have worked with",
+    "filtersTitle": "Filter by Country:",
+    "filtersData": [
+        {
+            "id": ""
+        },
+        {
+            "id": "DE"
+        },
+        {
+            "id": "ES"
+        },
+        {
+            "id": "FI"
+        },
+        {
+            "id": "FR"
+        },
+        {
+            "id": "IE"
+        },
+        {
+            "id": "IL"
+        },
+        {
+            "id": "IT"
+        },
+        {
+            "id": "PL"
+        },
+        {
+            "id": "RO"
+        },
+        {
+            "id": "UK"
+        },
+        {
+            "id": "US"
+        }
+    ],
+    "user": [
+        {
+            "id": 0,
+            "name": "Paolo Montemurro",
+            "job": "Director",
+            "company": "MateraHub",
+            "country": "IT"
+        },
+        {
+            "id": 1,
+            "name": "Denisa Gibovic",
+            "job": "Director",
+            "company": "Blue Room Innovation",
+            "country": "ES"
+        },
+        {
+            "id": 2,
+            "name": "Fabian Gomez",
+            "job": "CEO",
+            "company": "FyG Consultores",
+            "country": "ES"
+        },
+        {
+            "id": 3,
+            "name": "Dr. Calin Caluser",
+            "job": "CEO",
+            "company": "MetriTrack, Inc.",
+            "country": "US"
+        },
+        {
+            "id": 4,
+            "name": "John Hyland",
+            "job": "Managing Director",
+            "company": "OTT Software Solutions",
+            "country": "IE"
+        },
+        {
+            "id": 5,
+            "name": "Sean Murphy",
+            "job": "CEO",
+            "company": "Marrable Services Ltd.",
+            "country": "UK"
+        },
+        {
+            "id": 6,
+            "name": "Andrew Scarpitta",
+            "job": "Director Of Operations",
+            "company": "Ocrolus",
+            "country": "US"
+        },
+        {
+            "id": 7,
+            "name": "Emily Ochoa",
+            "job": "VP, Head of Marketing & Communications",
+            "company": "Eigen Technologies",
+            "country": "UK"
+        },
+        {
+            "id": 8,
+            "name": "Dr. Katja Weichsel",
+            "job": "Project Manager",
+            "company": "PaediPilot",
+            "country": "DE"
+        },
+        {
+            "id": 9,
+            "name": "Murali Krishnan",
+            "job": "VP of Technology",
+            "company": "Transform Inc.",
+            "country": "US"
+        },
+        {
+            "id": 10,
+            "name": "Andy Roney",
+            "job": "Global Master",
+            "company": "BrainRx Inc. US & Global",
+            "country": "UKUS"
+        },
+        {
+            "id": 11,
+            "name": "John G. De Palm",
+            "job": "Director Application Development",
+            "company": "PRS IN VIVO",
+            "country": "US"
+        },
+        {
+            "id": 12,
+            "name": "Bonnie Beeman",
+            "job": "CEO",
+            "company": "Airwavz.tv",
+            "country": "US"
+        },
+        {
+            "id": 13,
+            "name": "Annette Burgard",
+            "job": "VP of Marketing",
+            "company": "Sefaira",
+            "country": "USUK"
+        },
+        {
+            "id": 14,
+            "name": "Manuela David",
+            "job": "President",
+            "company": "EduMax",
+            "country": "RO"
+        },
+        {
+            "id": 15,
+            "name": "Slim Soua",
+            "job": "Section Manager",
+            "company": "TWI",
+            "country": "UK"
+        },
+        {
+            "id": 16,
+            "name": "Dragos Gavrilescu",
+            "job": "Managing Director",
+            "company": "PSI Romania / Love Plus",
+            "country": "RO"
+        },
+        {
+            "id": 17,
+            "name": "Adrian Burns",
+            "job": "CEO",
+            "company": "Firmwave, Secure IoT Solutions",
+            "country": "IE"
+        },
+        {
+            "id": 18,
+            "name": "Lucian Ciuta",
+            "job": "Managing Consultant",
+            "company": "Long Consulting",
+            "country": "RO"
+        },
+        {
+            "id": 19,
+            "name": "Kenji Adaniya",
+            "job": "CEO",
+            "company": "Loovea.com",
+            "country": "FR"
+        },
+        {
+            "id": 20,
+            "name": "Kieran Daly",
+            "job": "VP Business Development at Shimmer Research",
+            "company": "Realtime Technologies",
+            "country": "IE"
+        },
+        {
+            "id": 21,
+            "name": "Traian Teglet",
+            "job": "PR Executive",
+            "company": "SmartPoint",
+            "country": "RO"
+        },
+        {
+            "id": 22,
+            "name": "Team Loopme",
+            "job": "team",
+            "company": "Loopme",
+            "country": "ILUS"
+        },
+        {
+            "id": 23,
+            "name": "John W Fanning",
+            "job": "CEO",
+            "company": "Netcapital",
+            "country": "US"
+        },
+        {
+            "id": 24,
+            "name": "Ovidiu Sutac",
+            "job": "UBS DC Site Manager",
+            "company": "Luxoft",
+            "country": "RO"
+        },
+        {
+            "id": 25,
+            "name": "Laura Pavaloaia",
+            "job": "Senior Account Manager",
+            "company": "Power Net Consulting",
+            "country": "RO"
+        },
+        {
+            "id": 26,
+            "name": "Frank Bullock",
+            "job": "CEO",
+            "company": "Child Life International",
+            "country": "US"
+        },
+        {
+            "id": 27,
+            "name": "Cris Doloc",
+            "job": "Chief Technology Officer",
+            "company": "TerraNova Financial Group",
+            "country": "US"
+        },
+        {
+            "id": 28,
+            "name": "Paul Maglione",
+            "job": "CO-founder Entertainment Learning",
+            "company": "English Attack",
+            "country": "FR"
+        },
+        {
+            "id": 29,
+            "name": "Darin Oliver",
+            "job": "American Entrepreneur",
+            "company": "Blockdraw Capital Limited",
+            "country": "USUK"
+        },
+        {
+            "id": 30,
+            "name": "Thomas Parsons",
+            "job": "Co-founder",
+            "company": "Health XL",
+            "country": "IE"
+        },
+        {
+            "id": 31,
+            "name": "Johan Plomp",
+            "job": "Senior Researcher and Team Leader",
+            "company": "VTT",
+            "country": "FI"
+        },
+        {
+            "id": 32,
+            "name": "Rainer Scharpegge",
+            "job": "Senior IT Advisor, Senior Expert Service",
+            "company": "SES Bonn",
+            "country": "DE"
+        },
+        {
+            "id": 33,
+            "name": "Alin Dan Potorac",
+            "job": "Ph.D.",
+            "company": "University of Suceava",
+            "country": "RO"
+        },
+        {
+            "id": 34,
+            "name": "Florin Stroiescu",
+            "job": "Founder and Managing Director",
+            "company": "Strasmax",
+            "country": "IE"
+        },
+        {
+            "id": 35,
+            "name": "Lia Vasilescu",
+            "job": "Brand manager",
+            "company": "Love +, PSI",
+            "country": "ROUS"
+        },
+        {
+            "id": 36,
+            "name": "Alicja GRZEGORZEK",
+            "job": "Regional Director",
+            "company": "Ateknea Solutions",
+            "country": "PLES"
+        },
+        {
+            "id": 37,
+            "name": "Jennifer Woodard",
+            "job": "Consultant, Business Development, New Technologies",
+            "company": "Ateknea Solutions",
+            "country": "ES"
+        },
+        {
+            "id": 38,
+            "name": "Jessica Wu",
+            "job": "General Manager",
+            "company": "Dr. Jessica Wu Cosmeceuticals",
+            "country": "US"
+        },
+        {
+            "id": 39,
+            "name": "Cezar Hancu",
+            "job": "General Manager",
+            "company": "GPC",
+            "country": "RO"
+        },
+        {
+            "id": 40,
+            "name": "Gabriel Ignatescu",
+            "job": "General Manager",
+            "company": "ACI-AG",
+            "country": "RO"
+        }
+    ]
+}
