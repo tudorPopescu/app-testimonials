@@ -1,8 +1,8 @@
 .banner {
   background: url(https://cdnsite1.assist.ro/cdn/farfuture/of6bNrBFdoNBKs8Y7cyI5RToOyiZZ7cOIvUYgU4qIOE/mtime:1570545384/sites/all/themes/assist/img/backgrounds/headers/team.webp) no-repeat 50%;
   background-size: cover;
-  color: var(--white);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 320px;
@@ -15,6 +15,8 @@
   }
 
   .title {
+    color: var(--white);
+
     @media only screen and (max-width: 767px) {
       font-size: 25px;
     }

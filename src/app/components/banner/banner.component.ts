@@ -7,7 +7,7 @@ import { TestimonialsDataService } from '../../services/testimonials-data.servic
   styleUrls: ['./banner.component.scss']
 })
 export class BannerComponent implements OnInit {
-  public headers = [];
+  public headers = {};
   public errorMsg = '';
 
   constructor(private _testimonialsService: TestimonialsDataService) { }

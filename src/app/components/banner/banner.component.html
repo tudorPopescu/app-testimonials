@@ -1,8 +1,7 @@
 <div class="banner">
-  <div *ngFor="let header of headers">
-    <h1 class="title">{{header.title}}</h1>
-    <p class="subtitle">{{header.subtitle}}</p>
-    <p class="subtitle">{{header.secondSubtitle}}</p>
+  <h1 class="title">{{headers["title"]}}</h1>
+  <p class="subtitle">{{headers["subtitle"]}}</p>
+  <p class="subtitle">{{headers["secondSubtitle"]}}</p>
 </div>
 
 <h3 class="error">{{errorMsg}}</h3>
