@@ -9,7 +9,7 @@ import 'rxjs/add/observable/throw';
   providedIn: 'root'
 })
 export class TestimonialsDataService {
-  private _url: string = "../../assets/data/testimonials.json";
+  private _url: string = "http://localhost:3000/testimonials";
 
   constructor(private http: HttpClient) { }
 
