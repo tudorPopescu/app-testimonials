@@ -14,19 +14,20 @@
   --light-gray2: #dddddd;
   --light-gray3: #838383;
   --light-gray4: #CBCBCB;
+  --dark-red: #660000;
 }
 
 body {
   background-color: var(--white);
   color: var(--dark);
   font-family: var(--lato-regular), sans-serif;
-  line-height: 1.6;
   margin: 0;
   padding: 0;
 }
 
 h1 {
   font-size: 48px;
+  margin: 0;
 }
 
 p {

@@ -44,290 +44,419 @@
     "user": [
         {
             "id": 0,
+            "image": "https://cdnsite2.assist.ro/cdn/farfuture/3ug1hqzgzWoxG_aTuekJCy1SArkTvesEZ1KNwqaLs6E/mtime:1580464669/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Paolo%20Montemurro-Director%20-%20EU%20Project%20Manager%20MateraHub%20-%20Matera%20-Italy%20%281%29.jpg?itok=RdoaxuWm",
             "name": "Paolo Montemurro",
             "job": "Director",
             "company": "MateraHub",
-            "country": "IT"
+            "countries": [
+                "IT"
+            ]
         },
         {
             "id": 1,
+            "image": "https://d2z1ksq6nul58p.cloudfront.net/cdn/farfuture/mEN6TS180RUSxSv0pV6kYsn2K8bWRHygzSpO08sy7go/mtime:1580464669/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Denisa%20Gibovic-Director%20Blue%20Room%20Innovation%20-%20Barcelona%20-%20Spain.jpg?itok=zsjlBjh3",
             "name": "Denisa Gibovic",
             "job": "Director",
             "company": "Blue Room Innovation",
-            "country": "ES"
+            "countries": [
+                "ES"
+            ]
         },
         {
             "id": 2,
+            "image": "https://cdnsite2.assist.ro/cdn/farfuture/n828fsCcFP4uSz3L4dxC2kFpZz93JWvFTXS9U9VwY94/mtime:1580211795/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Fabian%20Gomez-%20CEO%20Fyg%20Consultores%20-%20Valencia%20-Spain.jpg?itok=HK1rHz57",
             "name": "Fabian Gomez",
             "job": "CEO",
             "company": "FyG Consultores",
-            "country": "ES"
+            "countries": [
+                "ES"
+            ]
         },
         {
             "id": 3,
+            "image": "https://cdnsite3.assist.ro/cdn/farfuture/--DX6uzt1m2ukHeEL8GcvNrmz4ckyRyUSjkEKEMkCRk/mtime:1572253293/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Dr.%20Calin%20Caluser%20-%20ASSIST%20Software%20Testimonial.jpg?itok=8g2LWBK-",
             "name": "Dr. Calin Caluser",
             "job": "CEO",
             "company": "MetriTrack, Inc.",
-            "country": "US"
+            "countries": [
+                "US"
+            ]
         },
         {
             "id": 4,
+            "image": "https://cdnsite2.assist.ro/cdn/farfuture/6CQGf6neNNN8Nvyjp1JWxj79pekmBSSSXc5q9wOskxI/mtime:1567174823/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/John%20Hyland%20%20-%20ASSIST%20Software%20Testimonial.jpg?itok=5p55xLLb",
             "name": "John Hyland",
             "job": "Managing Director",
             "company": "OTT Software Solutions",
-            "country": "IE"
+            "countries": [
+                "IE"
+            ]
         },
         {
             "id": 5,
+            "image": "https://cdnsite3.assist.ro/cdn/farfuture/0_hoDNf6qDePUN0bHQx-Bo7wdXzi05812gDEWa0zBl8/mtime:1564562548/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Sean%20Murphy%20-%20ASSIST%20Software%20testimonial.jpeg?itok=_gS3AyGT",
             "name": "Sean Murphy",
             "job": "CEO",
             "company": "Marrable Services Ltd.",
-            "country": "UK"
+            "countries": [
+                "UK"
+            ]
         },
         {
             "id": 6,
+            "image": "https://cdnsite3.assist.ro/cdn/farfuture/Dm6U2mFAFz8L2jWvxgQN1hAf3WQEcE2ilKsASouTA58/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Andrew%20Scarpitta%20-%20ASSIST%20Software%20testimonial.png?itok=iratbu_W",
             "name": "Andrew Scarpitta",
             "job": "Director Of Operations",
             "company": "Ocrolus",
-            "country": "US"
+            "countries": [
+                "US"
+            ]
         },
         {
             "id": 7,
+            "image": "https://cdnsite1.assist.ro/cdn/farfuture/FAhMeExX2KJAWsEBFI2ixE9qIXjBgR0tCWTJy1VtguA/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Emily%20Ochoa.jpeg?itok=-EBJ-Bd-",
             "name": "Emily Ochoa",
             "job": "VP, Head of Marketing & Communications",
             "company": "Eigen Technologies",
-            "country": "UK"
+            "countries": [
+                "UK"
+            ]
         },
         {
             "id": 8,
+            "image": "https://cdnsite2.assist.ro/cdn/farfuture/slsKqRCudQ8bLSaH4Eo1MHracvwPz989NgTJYwV1hxY/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/katja-weichsel.jpg?itok=GZEu_ICm",
             "name": "Dr. Katja Weichsel",
             "job": "Project Manager",
             "company": "PaediPilot",
-            "country": "DE"
+            "countries": [
+                "DE"
+            ]
         },
         {
             "id": 9,
+            "image": "https://d2z1ksq6nul58p.cloudfront.net/cdn/farfuture/XYGSvwPrv0vH6fhYpuPwzne3FPn4-CB2hf-LuuDKAl8/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Murali%20Krishnan%20testimonial%20on%20ASSIST%20Software%27s%20collaboration.jpg?itok=ZcODvpNs",
             "name": "Murali Krishnan",
             "job": "VP of Technology",
             "company": "Transform Inc.",
-            "country": "US"
+            "countries": [
+                "US"
+            ]
         },
         {
             "id": 10,
+            "image": "https://cdnsite3.assist.ro/cdn/farfuture/war0gCZmcRevS1A3dvl9NiMdYG1bmWWONX7KSuyTrNs/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Andy%20Roney%20testimonial%20on%20ASSIST%20Software%27s%20services.png?itok=uO6NY27g",
             "name": "Andy Roney",
             "job": "Global Master",
             "company": "BrainRx Inc. US & Global",
-            "country": "UKUS"
+            "countries": [
+                "UK",
+                "US"
+            ]
         },
         {
             "id": 11,
+            "image": "https://cdnsite2.assist.ro/cdn/farfuture/kHjBHFZBpqE30UnzfSXYNumXB4cLYs2fIGar1JxJ9M4/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/john%20de%20palm.jpg?itok=adLrX7HZ",
             "name": "John G. De Palm",
             "job": "Director Application Development",
             "company": "PRS IN VIVO",
-            "country": "US"
+            "countries": [
+                "US"
+            ]
         },
         {
             "id": 12,
+            "image": "https://cdnsite2.assist.ro/cdn/farfuture/tl2fEDeD5gV7liTHrq2CWVlKYtJci4kHPNHYOmOvVaE/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Bonnie-Beeman.jpg?itok=ovpGVjy7",
             "name": "Bonnie Beeman",
             "job": "CEO",
             "company": "Airwavz.tv",
-            "country": "US"
+            "countries": [
+                "US"
+            ]
         },
         {
             "id": 13,
+            "image": "https://cdnsite2.assist.ro/cdn/farfuture/pNTJlMjDk4c4G37zoZGNnPxMjPqfH_6HdtX-sgxYZT4/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Annete-Burgard-VP-of-Marketing-Sefaira.jpg?itok=-lVmZ34d",
             "name": "Annette Burgard",
             "job": "VP of Marketing",
             "company": "Sefaira",
-            "country": "USUK"
+            "countries": [
+                "US",
+                "UK"
+            ]
         },
         {
             "id": 14,
+            "image": "https://cdnsite2.assist.ro/cdn/farfuture/JsGoYHaPeloQ2De46uercrLjvi9rRSPOzZVTRMLaOUA/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/manuela-david.jpg?itok=IGnP0KRn",
             "name": "Manuela David",
             "job": "President",
             "company": "EduMax",
-            "country": "RO"
+            "countries": [
+                "RO"
+            ]
         },
         {
             "id": 15,
+            "image": "https://cdnsite1.assist.ro/cdn/farfuture/yg3gE5HajHY6H1rdcfK_bhwmOLKlOAK_bG_r3yAguvE/mtime:1580724650/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Slim-Soua%2C%20Section%20Manager%20at%20TWI.jpg?itok=uVo-XP2f",
             "name": "Slim Soua",
             "job": "Section Manager",
             "company": "TWI",
-            "country": "UK"
+            "countries": [
+                "UK"
+            ]
         },
         {
             "id": 16,
+            "image": "https://cdnsite3.assist.ro/cdn/farfuture/uZCPf3DeEU2o8ELAH0YDMnlstejg-tvf74Ih_smRyug/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Dragos-Gavrilescu-testinomial-for-ASSIST.jpg?itok=0SocC9XE",
             "name": "Dragos Gavrilescu",
             "job": "Managing Director",
             "company": "PSI Romania / Love Plus",
-            "country": "RO"
+            "countries": [
+                "RO"
+            ]
         },
         {
             "id": 17,
+            "image": "https://d2z1ksq6nul58p.cloudfront.net/cdn/farfuture/6t0z8WcOEfO7dEXxOiCQSi12j0MKsutyyGEjKjSIsYw/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/adrian-burns.jpg?itok=8mD5lT-y",
             "name": "Adrian Burns",
             "job": "CEO",
             "company": "Firmwave, Secure IoT Solutions",
-            "country": "IE"
+            "countries": [
+                "IE"
+            ]
         },
         {
             "id": 18,
+            "image": "https://cdnsite2.assist.ro/cdn/farfuture/c_BarZ0itcCwV8bXag8HXAYFtG1t_zXxEsJF6ZL3RQ0/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Lucian-Ciuta-testimonial-for-ASSIST-Software.jpg?itok=Jg4iwEx_",
             "name": "Lucian Ciuta",
             "job": "Managing Consultant",
             "company": "Long Consulting",
-            "country": "RO"
+            "countries": [
+                "RO"
+            ]
         },
         {
             "id": 19,
+            "image": "https://cdnsite1.assist.ro/cdn/farfuture/Vd-cY6iTH22jW4RMbQCCtw-GAD2X016pkoI0tIXxPCw/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Kenji-Adaniya-CEO-Loovea_0.jpg?itok=khdcD9nc",
             "name": "Kenji Adaniya",
             "job": "CEO",
             "company": "Loovea.com",
-            "country": "FR"
+            "countries": [
+                "FR"
+            ]
         },
         {
             "id": 20,
+            "image": "https://cdnsite1.assist.ro/cdn/farfuture/J0vtW8kEcpAX9TeF0MlQww5-_re8M76Pu6me6AOlMJc/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Keiran-Daly-VP-Business-Development-at-Shimmer-Research-Realtime-Technologies_0.jpg?itok=lxxD9aES",
             "name": "Kieran Daly",
             "job": "VP Business Development at Shimmer Research",
             "company": "Realtime Technologies",
-            "country": "IE"
+            "countries": [
+                "IE"
+            ]
         },
         {
             "id": 21,
+            "image": "https://cdnsite1.assist.ro/cdn/farfuture/n_nYtaOuC4DGygGqx5XtLgXQv2czqcdkTd0uIsv3bm0/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Traian-Teglet-PR-Executive-la-SmartPoint-testimonial-ASSIST.jpg?itok=NYPcQ7az",
             "name": "Traian Teglet",
             "job": "PR Executive",
             "company": "SmartPoint",
-            "country": "RO"
+            "countries": [
+                "RO"
+            ]
         },
         {
             "id": 22,
+            "image": "https://d2z1ksq6nul58p.cloudfront.net/cdn/farfuture/QmXYfisAvQRubrIZnyJ65XLM-MPk_OnM1tWsmZaVmEg/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/loopme_0.png?itok=A9E-Hnsz",
             "name": "Team Loopme",
             "job": "team",
             "company": "Loopme",
-            "country": "ILUS"
+            "countries": [
+                "IL",
+                "US"
+            ]
         },
         {
             "id": 23,
+            "image": "https://cdnsite3.assist.ro/cdn/farfuture/HvLMkpKprnJQv5zd_fiX8kw_FNoPnVSB4S5BWkvC2yg/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/John-Fanning-Chairman-and-CTO-of-Netcapital_0.jpg?itok=eqc5GJdQ",
             "name": "John W Fanning",
             "job": "CEO",
             "company": "Netcapital",
-            "country": "US"
+            "countries": [
+                "US"
+            ]
         },
         {
             "id": 24,
+            "image": "https://cdnsite1.assist.ro/cdn/farfuture/J2Hz6Cz07EbrM1yuf4H8pi7URpYMZT1diqAd1fPIo6I/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Ovidiu-Sutac-testimonial-on-ASSIST-Software%27s-services.jpg?itok=lCYosBz7",
             "name": "Ovidiu Sutac",
             "job": "UBS DC Site Manager",
             "company": "Luxoft",
-            "country": "RO"
+            "countries": [
+                "RO"
+            ]
         },
         {
             "id": 25,
+            "image": "https://cdnsite1.assist.ro/cdn/farfuture/FQBiAhm_uW85UrH-09M4tp2UwUSbG6ffnr3OnHOfnJE/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Laura-Pavaloaia-testimonial-for-ASSIST-Software.jpg?itok=547J7S7X",
             "name": "Laura Pavaloaia",
             "job": "Senior Account Manager",
             "company": "Power Net Consulting",
-            "country": "RO"
+            "countries": [
+                "RO"
+            ]
         },
         {
             "id": 26,
+            "image": "https://d2z1ksq6nul58p.cloudfront.net/cdn/farfuture/l9fna9m0ASnAQHwJs9Ui2c4_66rlBLGXX0cFjXR8TlM/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Frank-Bullock-CEO-Child-Life-International_0.jpg?itok=X4AGI27H",
             "name": "Frank Bullock",
             "job": "CEO",
             "company": "Child Life International",
-            "country": "US"
+            "countries": [
+                "US"
+            ]
         },
         {
             "id": 27,
+            "image": "https://cdnsite1.assist.ro/cdn/farfuture/dlWYvzHAU8Ml70SnwLZfBHa_N545jzLyUXdf3chZcnQ/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Chris-Doloc-Chief-Technology-Officer-TerraNova-Financial-Group_0.jpg?itok=8CHGKVCj",
             "name": "Cris Doloc",
             "job": "Chief Technology Officer",
             "company": "TerraNova Financial Group",
-            "country": "US"
+            "countries": [
+                "US"
+            ]
         },
         {
             "id": 28,
+            "image": "https://cdnsite2.assist.ro/cdn/farfuture/6QW6wl-8Zn5IxSy5DNTWyOsYMZyPf6I5_1vznJSPbl8/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Paul-Maliogne-CO-founder-Entertainment-Learning-English-Attack_0.jpg?itok=BV-UDsfM",
             "name": "Paul Maglione",
             "job": "CO-founder Entertainment Learning",
             "company": "English Attack",
-            "country": "FR"
+            "countries": [
+                "FR"
+            ]
         },
         {
             "id": 29,
+            "image": "https://cdnsite2.assist.ro/cdn/farfuture/yWzePDzsrA2nPZNUD7ArJOqbLEHVVe8-aTuFhT1_WfI/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Oliver-Darin-American-Entrepreneur-darinoliver_0.jpg?itok=M-ieRIQb",
             "name": "Darin Oliver",
             "job": "American Entrepreneur",
             "company": "Blockdraw Capital Limited",
-            "country": "USUK"
+            "countries": [
+                "US",
+                "UK"
+            ]
         },
         {
             "id": 30,
+            "image": "https://cdnsite3.assist.ro/cdn/farfuture/0EwoQGwRBPvL9ChQLBpJaNN9gVHT7xI_cImAPR2Mdac/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Thomas-Parsons-HealthXL-Dublin-Ireland-on-ASSIST-Software-website_0.jpg?itok=8ixZo4y6",
             "name": "Thomas Parsons",
             "job": "Co-founder",
             "company": "Health XL",
-            "country": "IE"
+            "countries": [
+                "IE"
+            ]
         },
         {
             "id": 31,
+            "image": "https://cdnsite1.assist.ro/cdn/farfuture/Mfar3QHvAvjQg1uZsNWoIgqqJOkJF_NpA4Zo_KYaHuI/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Johan-Plomp-Senior-Researcher-and-Team-Leader-VTT_0_0.jpg?itok=CpyoY0wg",
             "name": "Johan Plomp",
             "job": "Senior Researcher and Team Leader",
             "company": "VTT",
-            "country": "FI"
+            "countries": [
+                "FI"
+            ]
         },
         {
             "id": 32,
+            "image": "https://d2z1ksq6nul58p.cloudfront.net/cdn/farfuture/kA8yrkJSyPXVk6TD4T6Ow-OqF1w-TiE8w4I0xDQJSOs/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/rainer.jpg?itok=oMtPkS0t",
             "name": "Rainer Scharpegge",
             "job": "Senior IT Advisor, Senior Expert Service",
             "company": "SES Bonn",
-            "country": "DE"
+            "countries": [
+                "DE"
+            ]
         },
         {
             "id": 33,
+            "image": "https://d2z1ksq6nul58p.cloudfront.net/cdn/farfuture/BxY2XPnaaxG27rP1Yzkx-uZFxxOkhP6CwBQI-hKxfYs/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Alin-Potorac-Ph-D-University-Suceava_0.jpg?itok=ZfawnHYl",
             "name": "Alin Dan Potorac",
             "job": "Ph.D.",
             "company": "University of Suceava",
-            "country": "RO"
+            "countries": [
+                "RO"
+            ]
         },
         {
             "id": 34,
+            "image": "https://cdnsite1.assist.ro/cdn/farfuture/6HWyqI5mhUUUOvXHPzgjrCrLHmlCGRRmT1m8pis5pf4/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Florin-Stroiescu-Founder-and-Managing-Director-Strasmax_0.jpg?itok=5UJxprRG",
             "name": "Florin Stroiescu",
             "job": "Founder and Managing Director",
             "company": "Strasmax",
-            "country": "IE"
+            "countries": [
+                "IE"
+            ]
         },
         {
             "id": 35,
+            "image": "https://d2z1ksq6nul58p.cloudfront.net/cdn/farfuture/LfSRPOMFppqcOeMXPnfFj3ui9wAOGeEy5B-iNkvJonQ/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Lia-Vasilescu-Brand-manager-of-Love-PSI_0_0.jpg?itok=DNT5eRYY",
             "name": "Lia Vasilescu",
             "job": "Brand manager",
             "company": "Love +, PSI",
-            "country": "ROUS"
+            "countries": [
+                "RO",
+                "US"
+            ]
         },
         {
             "id": 36,
+            "image": "https://cdnsite2.assist.ro/cdn/farfuture/pLm-WrNdt5YOmjokZ5gDax9xyMfIIFzWJWTUxS0-tIM/mtime:1580491098/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Alicja-GRZEGORZEK-Regional-Director-at-Ateknea-Solutions-Krakow-Office_1_0.jpg?itok=IL6wOuc0",
             "name": "Alicja GRZEGORZEK",
             "job": "Regional Director",
             "company": "Ateknea Solutions",
-            "country": "PLES"
+            "countries": [
+                "PL",
+                "ES"
+            ]
         },
         {
             "id": 37,
+            "image": "https://cdnsite1.assist.ro/cdn/farfuture/H7kB-LcBsbaXOxd1RnDvWzEZ1Ek5UcAC72SKkb_Sk84/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Jennifer-Woodard-Consultant-Business-Development-New-Technologies-Ateknea-Solutions-Catalonia_0_0.png?itok=Hm59M7SU",
             "name": "Jennifer Woodard",
             "job": "Consultant, Business Development, New Technologies",
             "company": "Ateknea Solutions",
-            "country": "ES"
+            "countries": [
+                "ES"
+            ]
         },
         {
             "id": 38,
+            "image": "https://cdnsite2.assist.ro/cdn/farfuture/1GzjkaAQnvrJt9426h10wm9Mr0_2rWrk-lkkpJrBnXU/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Jessca-Wu-General-Manager-Dr-Jessica-Wu-Cosmeceuticals.jpg?itok=uJkQ9bmO",
             "name": "Jessica Wu",
             "job": "General Manager",
             "company": "Dr. Jessica Wu Cosmeceuticals",
-            "country": "US"
+            "countries": [
+                "US"
+            ]
         },
         {
             "id": 39,
+            "image": "https://cdnsite1.assist.ro/cdn/farfuture/FEPW-TD1YSEjUMVmIUIz2vxSBkIV6n-mzDvQWp5F-nM/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/no-person_0.jpg?itok=Dq8Nf2GV",
             "name": "Cezar Hancu",
             "job": "General Manager",
             "company": "GPC",
-            "country": "RO"
+            "countries": [
+                "RO"
+            ]
         },
         {
             "id": 40,
+            "image": "https://d2z1ksq6nul58p.cloudfront.net/cdn/farfuture/O3lHXHczI_KaJ3YxdifZupOoSro2-Im_9hXEgxf3kqU/mtime:1563963582/sites/default/files/styles/team_member_avatar_170x170_/public/testimonial_authors_pictures/Gabrie-Ignatescu-ACI-AG-SRL-Suceava-Testimonial%20ASSIST%20Software%20Romania-photo.jpg?itok=H9PmhE2K",
             "name": "Gabriel Ignatescu",
             "job": "General Manager",
             "company": "ACI-AG",
-            "country": "RO"
+            "countries": [
+                "RO"
+            ]
         }
     ]
 }
