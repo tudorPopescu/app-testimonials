@@ -9,14 +9,14 @@ import { BannerComponent } from './components/banner/banner.component';
 
 import { TestimonialsDataService } from  './services/testimonials-data.service';
 import { PaginationService } from './services/pagination.service';
-import { FiltersComponent } from './components/filters/filters.component';
+import { AuthorComponent } from './components/author/author.component';
 import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BannerComponent,
-    FiltersComponent,
+    AuthorComponent,
     ContactComponent
   ],
   imports: [

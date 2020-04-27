@@ -4,11 +4,11 @@ import { Router } from '@angular/router';
 import { PaginationService } from '../../services/pagination.service';
 
 @Component({
-  selector: 'app-filters',
-  templateUrl: './filters.component.html',
-  styleUrls: ['./filters.component.scss']
+  selector: 'app-author',
+  templateUrl: './author.component.html',
+  styleUrls: ['./author.component.scss']
 })
-export class FiltersComponent implements OnInit {
+export class AuthorComponent implements OnInit {
   public allData: any = {};
   public filteredData: any[];
   public selectedFilter: any;

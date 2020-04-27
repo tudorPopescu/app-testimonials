@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { FiltersComponent } from './components/filters/filters.component';
+import { AuthorComponent } from './components/author/author.component';
 
 const routes: Routes = [
-  {path: 'country/:id', component: FiltersComponent},
+  {path: 'country/:id', component: AuthorComponent},
   {path: '', redirectTo: '/country/all', pathMatch: 'full'}
 ];
 
