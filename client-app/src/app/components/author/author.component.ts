@@ -20,6 +20,7 @@ export class AuthorComponent implements OnInit {
       this.allData = data;
       this.filteredData = this.allData['user'];
       this.pagerService.setData(this.filteredData);
+      this.router.navigate(['/country/all']);
       this.selectedFilter = '';
     });
   }

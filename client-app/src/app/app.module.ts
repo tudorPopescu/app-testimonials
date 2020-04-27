@@ -10,7 +10,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { TestimonialsDataService } from  './services/testimonials-data.service';
 import { PaginationService } from './services/pagination.service';
 import { AuthorComponent } from './components/author/author.component';
-import { ContactComponent } from './contact/contact.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
