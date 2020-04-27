@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { TestimonialsDataService } from '../../services/testimonials-data.service';
 
 @Component({
@@ -7,13 +7,15 @@ import { TestimonialsDataService } from '../../services/testimonials-data.servic
   styleUrls: ['./banner.component.scss']
 })
 export class BannerComponent implements OnInit {
-  public headers = {};
+  @Input() allData: any = {};
+  @Input() recievedParentData: any;
+
   public errorMsg = '';
 
-  constructor(private _testimonialsService: TestimonialsDataService) { }
+  constructor(private _testimonialsService: TestimonialsDataService) {}
 
   ngOnInit(): void {
-    this._testimonialsService.getData().subscribe(data => this.headers = data, error => this.errorMsg = error);
+    this._testimonialsService.getData().subscribe(data => this.allData = data, error => this.errorMsg = error);
+    this.recievedParentData = "";
   }
-
 }

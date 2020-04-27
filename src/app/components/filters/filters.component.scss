@@ -1,0 +1,134 @@
+@import "../../../assets/styles/flags";
+@import "../../../assets/styles/pagination";
+
+.filters {
+  margin-top: 20px;
+
+  .filter-item {
+    display: inline-block;
+    min-height: 30px;
+    margin-top: 10px;
+
+    &:first-child {
+      .flag {
+        display: none;
+      }
+
+      .flag-text {
+        &::before{
+          content: 'All';
+        }
+      }
+    }
+  }
+
+  .filter-wrap {
+    margin: 20px 0 10px;
+  }
+
+  .filter {
+    border-radius: 20px;
+    border: 1px solid var(--light-gray2);
+    color: var(--light-gray3);
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 6px 10px;
+
+    &:hover,
+    &:active {
+      background: var(--light-gray);
+    }
+  }
+}
+
+
+
+
+.card {
+  background: var(--light-gray);
+  border-radius: 10px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  display: inline-block;
+  height: 264px;
+  margin: 25px auto;
+  max-width: 370px;
+  text-align: center;
+  width: 100%;
+
+  @media only screen and (min-width: 481px) {
+    margin-right: 4%;
+    width: 45%;
+
+    &:nth-child(2) {
+      margin-right: 0;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    margin-right: 2%;
+    width: 30.3%;
+
+    &:nth-child(2) {
+      margin-right: 2%;
+    }
+  }
+
+  &:hover {
+    background: var(--white);
+    border: 2px solid var(--blue-dark);
+    box-shadow: 0px 2px 2px var(--light-gray4);
+  }
+
+  .card-content {
+    display: inline-flex;
+    flex-direction: column;
+    padding-top: 20px;
+
+    .image {
+      align-self: center;
+      border-radius: 50%;
+      margin: 0 10px auto;
+      max-width: 100px;
+      max-height: 100px;
+    }
+
+    .author {
+      font-size: 24px;
+    }
+
+    .job {
+      color: var(--gray);
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+    }
+
+    .company {
+      a {
+        color: var(--blue-dark);
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+
+        @media only screen and (max-width: 767px) {
+          font-size: 15px;
+        }
+      }
+    }
+
+    .country {
+      font-size: 16px;
+      margin-top: 5px;
+    }
+
+    .author,
+    .job,
+    .country {
+      @media only screen and (max-width: 767px) {
+        font-size: 15px;
+      }
+    }
+  }
+}

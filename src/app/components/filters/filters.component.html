@@ -1,0 +1,50 @@
+<app-banner [allData]="allData" [recievedParentData]="selectedFilter"></app-banner>
+
+<div class="container filters">
+  <p>{{allData["filtersTitle"]}}</p>
+
+  <ul class="filter-wrap">
+    <li class="filter-item" *ngFor="let filter of allData['filtersData']" (click)="onSelect(filter)">
+      <a id="{{filter.id}}" class="filter">
+        <span class="flag flag-{{filter.id}}"></span>
+        <span class="flag-text">{{filter.id}}</span>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<div class="container">
+  <div class="content">
+    <div class="card" *ngFor="let author of pagerService.getPagedItems()">
+      <div class="card-content">
+        <img class="image" src="{{author.image}}" alt="{{author.name}}"/>
+        <p class="author">{{author.name}}</p>
+        <p class="job">{{author.job}}</p>
+        <p class="company"><a href="https://www.materahub.com/">{{author.company}}</a></p>
+        <div *ngFor="let country of author.countries">
+          <p class="country"><span class="flag flag-{{country}}"></span><span class="country">{{country}}</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="pagination">
+  <ul *ngIf="pagerService.getPager().pages && pagerService.getPager().pages.length > 1 && pagerService.getPager().totalPages > 1" class="pagination">
+      <li>
+          <a class="page-item first" (click)="pagerService.goToFirstPage()" [ngClass]="{disabled:pagerService.getPager().currentPage === 1}"></a>
+      </li>
+      <li>
+          <a class="page-item previous" (click)="pagerService.goToPreviousPage()" [ngClass]="{disabled:pagerService.getPager().currentPage === 1}"></a>
+      </li>
+      <li *ngFor="let page of pagerService.getPager().pages" >
+          <a class="page" (click)="pagerService.goToPage(page)" [ngClass]="{active:pagerService.getPager().currentPage === page}">{{page}}</a>
+      </li>
+      <li>
+          <a class="page-item next" (click)="pagerService.goToNextPage()" [ngClass]="{disabled:pagerService.getPager().currentPage === pagerService.getPager().totalPages}"></a>
+      </li>
+      <li>
+          <a class="page-item last" (click)="pagerService.goToLastPage()" [ngClass]="{disabled:pagerService.getPager().currentPage === pagerService.getPager().totalPages}"></a>
+      </li>
+  </ul>
+</div>

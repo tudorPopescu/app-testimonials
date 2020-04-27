@@ -8,18 +8,21 @@ import { AppComponent } from './app.component';
 import { BannerComponent } from './components/banner/banner.component';
 
 import { TestimonialsDataService } from  './services/testimonials-data.service';
+import { PaginationService } from './services/pagination.service';
+import { FiltersComponent } from './components/filters/filters.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BannerComponent
+    BannerComponent,
+    FiltersComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [TestimonialsDataService],
+  providers: [TestimonialsDataService, PaginationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

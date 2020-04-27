@@ -29,7 +29,7 @@
   .subtitle {
     color: var(--blue-light);
     font-size: 24px;
-    margin-top: 10px;
+    margin-top: 5px;
 
     @media only screen and (max-width: 480px) {
       font-size: 13px;
@@ -38,5 +38,9 @@
     @media only screen and (max-width: 767px) {
       font-size: 15px;
     }
+  }
+
+  .error {
+    color: var(--dark-red);
   }
 }
