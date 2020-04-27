@@ -1,7 +1,7 @@
 <div class="banner">
-  <h1 class="title">{{headers["title"]}}</h1>
-  <p class="subtitle">{{headers["subtitle"]}}</p>
-  <p class="subtitle">{{headers["secondSubtitle"]}}</p>
+  <h1 class="title" *ngIf="recievedParentData == ''">{{allData["title"]}}</h1>
+  <p class="subtitle" *ngIf="recievedParentData == ''">{{allData["subtitle"]}}</p>
+  <p class="subtitle" *ngIf="recievedParentData == ''">{{allData["secondSubtitle"]}}</p>
+  <h1 class="title" *ngIf="recievedParentData !== ''">Testimonials | {{recievedParentData}} Clients</h1>
+  <h3 class="error">{{errorMsg}}</h3>
 </div>
-
-<h3 class="error">{{errorMsg}}</h3>
