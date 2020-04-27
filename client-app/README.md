@@ -2,7 +2,22 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
-## Development server
+## Server App
+
+Navigate to server-app and run the command: npm install.
+
+After installing all the necessary dependencies execute the command: node server.
+
+The app will create a server. The server host will be displayed in the terminal.
+
+Navigate to `http://localhost:3000/testimonials`. This will scrape the information into a JSON format.
+
+
+## Client App
+
+Navigate to client-app.
+
+Execute the command: npm install to install all the necessary dependencies
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
