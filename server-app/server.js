@@ -2,6 +2,7 @@ const express = require('express');
 const cheerio = require('cheerio');
 const axios = require('axios');
 const chalk = require('chalk');
+const cors = require('cors');
 
 const app = express();
 const url = 'https://assist-software.net/testimonials/';
@@ -19,6 +20,8 @@ const outputResults = {
 
 let pageCounter = 0;
 let resultCount = 0;
+
+app.use(cors());
 
 app.get('/testimonials', (req, res) => {
   console.log(chalk.yellow(`\nScraping of ${chalk.underline.bold(url)} initiated...\n`));
