@@ -60,17 +60,25 @@ app.get('/testimonials', (req, res) => {
 
       $('.views-field-field-company').map((i, el) => {
         const id = resultCount++;
+        const image = $(el).find('.img-responsive').attr('src').trim();
         const name = $(el).find('p.testimonial-author').text().trim();
         const job = $(el).find('p.testimonial-job').text().trim();
         const company = $(el).find('p.testimonial-company').text().trim();
-        const country = $(el).find('.testimonial-country .country').text().trim();
+
+        let countries = [];
+
+        $(el).find('.testimonial-country .country').each((number, element) => {
+          countries.push($(element).text());
+          
+        });
 
         const data = {
           id: id,
+          image: image,
           name: name,
           job: job,
           company: company,
-          country: country
+          countries: countries
         }
 
           outputResults["user"].push(data);
