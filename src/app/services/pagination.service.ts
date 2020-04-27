@@ -5,8 +5,8 @@ import { Injectable } from '@angular/core';
 })
 export class PaginationService {
   private pager: any = {};
-  private pagedItems: any[];
-  private data: any[];
+  private pagedItems: any = [];
+  private data: any = [];
 
   constructor() { }
 

@@ -1,7 +1,13 @@
 <div class="banner">
-  <h1 class="title" *ngIf="recievedParentData == ''">{{allData["title"]}}</h1>
-  <p class="subtitle" *ngIf="recievedParentData == ''">{{allData["subtitle"]}}</p>
-  <p class="subtitle" *ngIf="recievedParentData == ''">{{allData["secondSubtitle"]}}</p>
-  <h1 class="title" *ngIf="recievedParentData !== ''">Testimonials | {{recievedParentData}} Clients</h1>
-  <h3 class="error">{{errorMsg}}</h3>
+  <ng-container *ngIf="bannerData == ''; else countryBanner">
+    <h1 class="title">{{allData["title"]}}</h1>
+    <p class="subtitle">{{allData["subtitle"]}}</p>
+    <p class="subtitle">{{allData["secondSubtitle"]}}</p>
+  </ng-container>
+
+  <ng-template #countryBanner>
+    <ng-container *ngIf="bannerData !== ''">
+      <h1 class="title">Testimonials | {{bannerData}} Clients</h1>
+    </ng-container>
+  </ng-template>
 </div>

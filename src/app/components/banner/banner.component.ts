@@ -8,14 +8,14 @@ import { TestimonialsDataService } from '../../services/testimonials-data.servic
 })
 export class BannerComponent implements OnInit {
   @Input() allData: any = {};
-  @Input() recievedParentData: any;
+  @Input() bannerData: any;
 
-  public errorMsg = '';
+  public errorMsg: string = '';
 
   constructor(private _testimonialsService: TestimonialsDataService) {}
 
   ngOnInit(): void {
     this._testimonialsService.getData().subscribe(data => this.allData = data, error => this.errorMsg = error);
-    this.recievedParentData = "";
+    this.bannerData = '';
   }
 }

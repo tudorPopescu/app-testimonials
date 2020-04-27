@@ -31,7 +31,7 @@ export class FiltersComponent implements OnInit {
       this.pagerService.setData(this.filteredData);
       this.router.navigate(['/country/all']);
     } else {
-      this.filteredData = this.allData['user'].filter(u => u.countries.includes(country.id));
+      this.filteredData = this.allData['user'].filter(c => c.countries.includes(country.id));
       this.pagerService.setData(this.filteredData);
       this.router.navigate(['/country', country.id]);
     }

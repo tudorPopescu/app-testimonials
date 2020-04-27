@@ -69,7 +69,6 @@ app.get('/testimonials', (req, res) => {
 
         $(el).find('.testimonial-country .country').each((number, element) => {
           countries.push($(element).text());
-          
         });
 
         const data = {

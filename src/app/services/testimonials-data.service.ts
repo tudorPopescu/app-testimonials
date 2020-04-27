@@ -9,7 +9,6 @@ import 'rxjs/add/observable/throw';
   providedIn: 'root'
 })
 export class TestimonialsDataService {
-  // Point to the file we need to get for the http fetch
   private _url: string = "../../assets/data/testimonials.json";
 
   constructor(private http: HttpClient) { }
