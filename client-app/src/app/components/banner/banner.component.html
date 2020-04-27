@@ -1,13 +1,19 @@
-<div class="banner">
+<ng-container  *ngIf="!errorMsg">
   <ng-container *ngIf="bannerData == ''; else countryBanner">
-    <h1 class="title">{{allData["title"]}}</h1>
-    <p class="subtitle">{{allData["subtitle"]}}</p>
-    <p class="subtitle">{{allData["secondSubtitle"]}}</p>
+    <div class="banner">
+      <h1 class="title">{{allData["title"]}}</h1>
+      <p class="subtitle">{{allData["subtitle"]}}</p>
+      <p class="subtitle">{{allData["secondSubtitle"]}}</p>
+    </div>
   </ng-container>
 
   <ng-template #countryBanner>
     <ng-container *ngIf="bannerData !== ''">
-      <h1 class="title">Testimonials | {{bannerData}} Clients</h1>
+      <div class="banner">
+        <h1 class="title">Testimonials | {{bannerData}} Clients</h1>
+      </div>
     </ng-container>
   </ng-template>
-</div>
+</ng-container>
+
+<h3 class="error">{{errorMsg}}</h3>
