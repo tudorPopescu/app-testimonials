@@ -1,10 +1,12 @@
-# AppTestimonials
+# Testimonials App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
 ## Server App
 
-Navigate to server-app and run the command: npm install.
+Navigate to server-app folder.
+
+Execute the command: npm install to install all the necessary dependencies
 
 After installing all the necessary dependencies execute the command: node server.
 
@@ -15,11 +17,12 @@ Navigate to `http://localhost:3000/testimonials`. This will scrape the informati
 
 ## Client App
 
-Navigate to client-app.
+Navigate to client-app folder.
 
 Execute the command: npm install to install all the necessary dependencies
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
 
 ## Code scaffolding
 
