@@ -35,7 +35,7 @@
     padding: 6px 10px;
 
     &:hover,
-    &:active {
+    &.active {
       background: var(--light-gray);
     }
   }

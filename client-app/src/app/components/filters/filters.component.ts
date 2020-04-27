@@ -20,6 +20,7 @@ export class FiltersComponent implements OnInit {
       this.allData = data;
       this.filteredData = this.allData['user'];
       this.pagerService.setData(this.filteredData);
+      this.selectedFilter = '';
     });
   }
 

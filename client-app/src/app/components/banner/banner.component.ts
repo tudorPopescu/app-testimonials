@@ -7,8 +7,8 @@ import { TestimonialsDataService } from '../../services/testimonials-data.servic
   styleUrls: ['./banner.component.scss']
 })
 export class BannerComponent implements OnInit {
-  @Input() allData: any = {};
-  @Input() bannerData: any;
+  @Input() public allData: any = {};
+  @Input() public bannerData: any;
 
   public errorMsg: string = '';
 

@@ -5,7 +5,7 @@
 
   <ul class="filter-wrap">
     <li class="filter-item" *ngFor="let filter of allData['filtersData']" (click)="onSelect(filter)">
-      <a id="{{filter.id}}" class="filter">
+      <a id="{{filter.id}}" class="filter" [ngClass]="{active:filter.id == selectedFilter}">
         <span class="flag flag-{{filter.id}}"></span>
         <span class="flag-text">{{filter.id}}</span>
       </a>
@@ -51,3 +51,5 @@
     </li>
   </ul>
 </div>
+
+<app-contact [allData]="allData"></app-contact>

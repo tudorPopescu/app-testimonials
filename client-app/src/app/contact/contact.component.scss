@@ -1,0 +1,60 @@
+.contact {
+  background: transparent linear-gradient(135deg,#224a6f 5%,#3482ae 99%,#2983b6 100%) repeat scroll 0 0;
+  padding: 45px 0;
+  text-align: center;
+
+  .title {
+    color: var(--white);
+    font-size: 22px;
+
+    @media only screen and (min-width: 480px) {
+      font-size: 24px;
+    }
+
+    @media only screen and (min-width: 768px) {
+      font-size: 26px;
+    }
+
+    @media only screen and (min-width: 992px) {
+      font-size: 30px;
+    }
+  }
+
+  .subtitle {
+    color: var(--white);
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0 15px;
+    max-width: 770px;
+
+    @media only screen and (min-width: 480px) {
+      font-size: 18px;
+    }
+
+    @media only screen and (min-width: 768px) {
+      margin: 0 auto;
+    }
+  }
+
+  .btn {
+    background: transparent;
+    border: 1px solid var(--white);
+    border-radius: 4px;
+    color: var(--white);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    min-width: 190px;
+    min-height: 55px;
+    padding: 6px 12px;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background: var(--white);
+      border-color: transparent;
+      color: var(--dark);
+    }
+  }
+}
